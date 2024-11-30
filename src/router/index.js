@@ -33,8 +33,6 @@ let router = new Router({
 
 router.beforeEach(Vue.prototype.$auth.authRedirectGuard())
 
-{
-  true
-}
+
 
 export default router
